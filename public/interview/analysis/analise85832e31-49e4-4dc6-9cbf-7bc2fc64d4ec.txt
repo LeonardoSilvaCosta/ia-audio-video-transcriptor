@@ -1,0 +1,19 @@
+Certezas:
+- A pessoa é arquiteta, mas está migrando para a área de UX/UI.
+- A pessoa tem doença celíaca desde os oito anos.
+- A pessoa segue uma dieta balanceada, evitando alimentos com glúten.
+- A pessoa pratica atividades físicas por lazer, aproximadamente seis vezes por semana.
+- As atividades físicas influenciam na escolha alimentar da pessoa.
+
+Suposições:
+- A pessoa gosta de assistir filmes e séries, sair para almoçar e encontrar amigos para se divertir.
+- A pessoa busca um nutricionista compatível com suas preferências e que siga uma linha de alimentação mais natural.
+- A pessoa teve dificuldades em encontrar um nutricionista que entendesse sua condição de doença celíaca.
+- A pessoa está satisfeita com sua nutricionista atual.
+- A pessoa faz consultas com nutricionista a cada três meses.
+
+Dúvidas:
+- O quanto as atividades físicas da pessoa influenciam na sua condição de saúde.
+- Se a pessoa já teve consulta com nutricionista antes ou se foi somente após descobrir a doença celíaca.
+- O tempo que a pessoa tem praticado atividades físicas.
+- A frequência das consultas com nutricionista antes dos três meses atuais.

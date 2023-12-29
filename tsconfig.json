@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2016", //diz respeito a versão do JS a ser usada na transpilação 
+    "module": "commonjs",
+    "rootDir": "./src/", //onde estão os arquivos TS
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "outDir": "./dist/", //onde estarão os arquivos JS após transpilação
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "ts-node": { "transpileOnly": true } //configurações específicas do TS-Node, onde coloquei uma configuração que reduz consumo de memória;
+}

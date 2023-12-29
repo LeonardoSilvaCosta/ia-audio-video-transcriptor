@@ -1,0 +1,58 @@
+1. npm init -y // inicia package.json
+segue abaixo os scripts que você deve colar no package.json
+
+___
+"scripts": {
+  "dev": "npx nodemon src/server.ts --watch 'src/' -e ts",
+  "compile": "npx tsc",
+  "start": "node ./dist/server.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+___
+
+2. npm i express cors dotenv helmet morgan express-async-errors
+3. npm i -D typescript ts-node @types/express @types/cors @types/helmet @types/dotenv @types/morgan
+4. npx tsc --init //criar arquivo tsconfig.json para configurar typescript
+
+
+segue abaixo a configuração que você deve colar no arquivo tsconfig
+___
+{
+  "compilerOptions": {
+    "target": "es2016", //diz respeito a versão do JS a ser usada na transpilação 
+    "module": "commonjs",
+    "rootDir": "./src/", //onde estão os arquivos TS
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "outDir": "./dist/", //onde estarão os arquivos JS após transpilação
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "ts-node": { "transpileOnly": true } //configurações específicas do TS-Node, onde coloquei uma configuração que reduz consumo de memória;
+}
+___
+
+5. crie o arquivo app.ts //será nosso arquivo de configuração
+6. crie o arquivo server.ts // será nosso arquivo recebimento e tratamento de requisições da api
+7. npm install prisma --save-dev //instala prisma no projeto
+8. npx prisma init //inicia o prisma no projeto: cria pasta prisma e arquivos .env e .gitignore
+9. configure a DATABASE_URL em .env conforme as configurações de seu banco de dados
+
+DATABASE_URL="postgresql://<usuario>:<senha>@localhost:5443/<banco de dados>?schema=public"
+
+10. em prisma/schema.prisma, crie seu primeiro model, ex:
+
+/*
+model User {
+  id    Int     @id @default(autoincrement())
+  email String  @unique
+  name  String?
+}
+*/
+
+11. npx prisma migrate dev --name <nomedamigration> init //cria comandos SQL a partir dos models de schema.prisma
+
+
+
