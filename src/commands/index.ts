@@ -1,13 +1,16 @@
 export const improveTranscription = (firstPaper: string, secondPaper: string) => {
-  const command = `'Você receberá a transcrição de um conteúdo de vídeo. 
-  Você deve melhorar a organização dessa transcrição para que ela apresente:
-   1. maior clareza e precisão; 
-   2. Contexto e coerência; 
-   3. Identificação e correção de erros;
-   4. Organize-a de forma a separar os papéis de ${firstPaper} e ${secondPaper}'.
+  const command = `Reescreva o texto fornecido utilizando as seguintes instruções:
   
-   Atenção: você deve manter todos os trechos de fala, o objetivo é somente melhorar o texto.
+  1. Adicione maior clareza e precisão;
+
+  2. Adicione contexto e coerência: se necessário, insira informações adicionais que ajudem a entender o que está sendo discutido;
+  
+  3. Identifique e corrija erros: certifique-se de corrigir erros de ortografia, gramática e pontuação;
+
+ 4. Separe a fala de cada pessoa em ${firstPaper} e ${secondPaper}.
+  
+5. O seu output deve ser o texto fornecido completo com as melhorias informadas acima.
    `;
 
-   return command;
+  return command;
 }
