@@ -1,0 +1,40 @@
+Certezas:
+- As pessoas buscam fazer dieta para melhorar sua condição física e/ou sua aparência.
+
+Suposições:
+- As pessoas gostariam de seguir suas dietas gastando menos tempo para terem mais tempo livre.
+- As pessoas gostariam de conseguir seguir suas dietas saudáveis gastando menos.
+- As pessoas gostariam de ter soluções que fizessem com que elas gastassem menos tempo se preocupando com suas dietas.
+- As pessoas gostariam de ter um canal para receber dicas para suas dietas.
+- As pessoas gostariam de se alimentar de forma mais saudável, porém sem se abdicar do sabor.
+- As pessoas gostariam de ter facilidade em ter acesso a um plano alimentar personalizado por um nutricionista.
+- As pessoas gostariam de ter facilidade em encontrar as refeições de suas dietas prontas para serem entregues.
+- As pessoas gostariam de receber recomendações para sua dieta em algum aplicativo ou serviço web.
+
+Outros insights:
+- As pessoas têm dificuldade em encontrar ingredientes específicos para suas refeições.
+- O preço dos ingredientes influencia nas decisões de compra.
+- As pessoas fazem academia para melhorar sua saúde.
+- As pessoas buscam nutricionistas para ajudá-las na alimentação.
+- As pessoas pesquisam e fazem recomendações antes de escolher um nutricionista.
+- As pessoas preferem aplicativos que ofereçam soluções flexíveis e adaptáveis.
+- As pessoas têm dificuldade em seguir uma rotina alimentar perfeita.
+- Os entrevistados não seguem dietas restritivas, mas sim uma reeducação alimentar.
+- As pessoas têm dificuldade em evitar comer besteiras.
+- As pessoas têm dificuldade em cozinhar e adequar suas refeições ao plano alimentar.
+- As pessoas têm dificuldade em lembrar de beber água.
+- As pessoas alteram a rotina alimentar conforme seu estado emocional.
+- As pessoas preferem comidas com bastante sabor.
+- As pessoas preferem opções mais naturais e menos industrializadas.
+- As pessoas preferem variedade no cardápio.
+- As pessoas têm dificuldade em cozinhar nas refeições do dia a dia.
+- As pessoas costumam fazer lanches rápidos à noite.
+- As pessoas têm dificuldade em adaptar a alimentação quando saem com amigos.
+- As pessoas têm preferências pessoais e não gostam de todas as opções em uma dieta.
+- As pessoas não têm intolerâncias graves, mas precisam controlar a quantidade de lactose.
+- As pessoas têm dificuldade em se lembrar de descongelar as refeições.
+- As pessoas têm preferências diferentes em relação ao uso de aplicativos para mapear a rotina diária.
+- As pessoas não costumam pagar por recursos adicionais em aplicativos de alimentação.
+- As pessoas têm motivação inicial com a gamificação, mas nem sempre isso se mantém.
+- As pessoas encontram dificuldades na plataforma de contato com a nutricionista.
+- As pessoas preferem utilizar aplicativos de delivery para fazer pedidos.

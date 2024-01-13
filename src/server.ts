@@ -1,8 +1,8 @@
 import dotenv from 'dotenv';
 dotenv.config(); import app from './app';
 import OpenAI from 'openai';
+import { promises as fsPromises } from 'fs'
 import fs from 'fs';
-import { v4 as uuidv4 } from 'uuid';
 const path = require('path');
 
 import ffmpeg, { ffprobe } from 'fluent-ffmpeg'
@@ -12,6 +12,8 @@ ffmpeg.setFfmpegPath(ffmpegPath);
 ffmpeg.setFfprobePath(ffprobeStatic.path);
 
 import { improveTranscription } from './commands';
+import { cognitiveConceptualizationCommand } from './commands/supervision';
+import { text } from 'express';
 import { CSDAnalysisCommand } from './commands/ux';
 
 const openai = new OpenAI({
@@ -51,12 +53,12 @@ async function cutFile(videoPath: string, filename: string, outputDir: string) {
   let endTime = dezMinutos;
 
   while (startTime < totalVideoDuration) {
-    const chunkName = `${outputDir}/${splitedFilename[0]}-${chunkCounter}.${ext}`;
+    const chunkPath = `${outputDir}/${splitedFilename[0]}-${chunkCounter}.${ext}`;
 
     const command = ffmpeg(videoPath)
       .setStartTime(startTime)
       .setDuration(dezMinutos)
-      .output(chunkName);
+      .output(chunkPath);
 
     const runPromise = new Promise((resolve, reject) => {
       command.on('end', resolve).on('error', reject).run();
@@ -64,7 +66,7 @@ async function cutFile(videoPath: string, filename: string, outputDir: string) {
 
     await runPromise;
 
-    exportedFiles.push(chunkName)
+    exportedFiles.push(chunkPath)
 
     startTime += dezMinutos;
     endTime += dezMinutos;
@@ -90,6 +92,9 @@ async function audioTranscriptor(cutedAudiosPath: string[], filename: string, ou
 
   let transcriptionsList = [];
 
+  const splitedFilename = filename.split('.');
+  const ext = splitedFilename[splitedFilename.length - 1];
+
   for (const audioPath of cutedAudiosPath) {
     const videoToTranscript = fs.createReadStream(audioPath);
 
@@ -102,25 +107,27 @@ async function audioTranscriptor(cutedAudiosPath: string[], filename: string, ou
   }
 
   const fullTranscription = transcriptionsList.join('\n\n');
-  const outputFile = path.join(outputDir, `${filename.split('.')[0]}-${uuidv4()}.txt`);
+  const outputFile = `${outputDir}/transcrição-${splitedFilename[0]}.${ext}`
 
   console.log('Transcrição concluída!')
 
-  fs.writeFile(outputFile, String(fullTranscription), (err) => {
-    if (err) {
-      console.error('Erro ao escrever no arquivo', err);
-    } else {
-      console.log(`O arquivo da transcrição foi armazenado no caminho ${outputDir}`)
-    }
-  });
+  try {
+    await fsPromises.writeFile(outputFile, String(fullTranscription))
+    console.log(`O arquivo da transcrição foi armazenado no caminho ${outputDir}`);
+  } catch (err) {
+    console.error('Erro ao escrever no arquivo', err);
+  }
 
-  return fullTranscription;
+  return outputFile;
 }
 
 async function improveTranscriptionWithGpt(transcriptedAudioPath: string, filename: string, roles: string[], outputDir: string) {
   console.log('Melhorando transcrição com chat GPT...');
 
   let improvedTranscriptionChunksList = [];
+
+  const splitedFilename = filename.split('.');
+  const ext = splitedFilename[splitedFilename.length - 1];
 
   try {
     const transcriptionText = fs.readFileSync(transcriptedAudioPath, 'utf8');
@@ -146,36 +153,39 @@ async function improveTranscriptionWithGpt(transcriptedAudioPath: string, filena
     }
 
     const fullImprovedTranscription = improvedTranscriptionChunksList.join('\n');
+    const outputFile = `${outputDir}/transcrição-processada-${splitedFilename[0]}.${ext}`
 
     console.log('Melhoramento de transcrição concluído!');
 
-    fs.writeFile(`${outputDir}/${filename.split('.')[0]}.txt`, String(fullImprovedTranscription), (err) => {
-      if (err) {
-        console.error('Erro ao escrever no arquivo', err);
-      } else {
-        console.log(`O arquivo com transcrição melhorada foi armazenado no caminho ${outputDir}`)
-      }
-    });
+    try {
+      await fsPromises.writeFile(outputFile, String(fullImprovedTranscription))
+      console.log(`O arquivo da transcrição melhorada foi armazenado no caminho ${outputDir}`);
+    } catch (err) {
+      console.error('Erro ao escrever no arquivo', err);
+    }
 
-    return fullImprovedTranscription as string;
+    return outputFile;
   } catch (err) {
     console.log(err)
+    return 'Error ao gerar transcrição melhorada.'
   }
 }
 
 async function applyAnalysis(improvedTranscriptionPath: string, filename: string, analysisCommand: string, outputDir: string) {
   console.log('Analisando transcrição...');
-  const systemCommand = analysisCommand;
 
   try {
     const improvedtranscriptionText = fs.readFileSync(improvedTranscriptionPath, 'utf8');
+
+    const splitedFilename = filename.split('.');
+    const ext = splitedFilename[splitedFilename.length - 1];
 
     const analysis = await openai.chat.completions.create({
       model: chatModel,
       messages: [
         {
           role: 'system',
-          content: systemCommand
+          content: analysisCommand
         }, {
           role: 'user',
           content: improvedtranscriptionText
@@ -185,13 +195,14 @@ async function applyAnalysis(improvedTranscriptionPath: string, filename: string
 
     console.log('Análise concluída.')
 
-    fs.writeFile(`${outputDir}/${filename.split('.')[0]}.txt`, String(analysis.choices[0].message.content), (err) => {
-      if (err) {
-        console.error('Erro ao escrever no arquivo', err);
-      } else {
-        console.log(`O arquivo com a análise foi armazenado no caminho ${outputDir}`)
-      }
-    });
+    const outputFile = `${outputDir}/análise-${splitedFilename[0]}.${ext}`
+
+    try {
+      await fsPromises.writeFile(outputFile, String(analysis.choices[0].message.content))
+      console.log(`O arquivo com a análise foi armazenado no caminho ${outputDir}`);
+    } catch (err) {
+      console.error('Erro ao escrever no arquivo', err);
+    }
 
     return 'Processo finalizado com sucesso!'
 
@@ -201,28 +212,37 @@ async function applyAnalysis(improvedTranscriptionPath: string, filename: string
 }
 
 async function main() {
-  const filePath = 'public/interview/original-files/entrevista-paciente-1.mp4';
-  const filename = 'entrevista-paciente-1.mp4';
-  const cutedFilesDestination = 'public/interview/file-cuts';
-  const transcriptedAudioDestination = 'public/interview/transcriptions';
-  const improvedTranscriptionsDestination = 'public/interview/improved-transcriptions';
-  const analisedTranscriptionDestination = 'public/interview/analysis';
+  const context = 'interview';
+  const commands = {
+    cognitiveConceptualizationCommand,
+    CSDAnalysisCommand
+  }
+  const audioFilePath = `public/${context}/original-files/entrevista-paciente-6.mp4`;
   const roles = ['Entrevistador', 'Entrevistado'];
-  const analisysCommand = CSDAnalysisCommand;
+  const analisysCommand = commands.CSDAnalysisCommand;
+
+  const cutedFilesDestination = `public/${context}/file-cuts`;
+  const transcriptedAudioDestination = `public/${context}/transcriptions`;
+  const improvedTranscriptionsDestination = `public/${context}/improved-transcriptions`;
+  const analisedTranscriptionDestination = `public/${context}/analysis`;
+
   try {
+    const audioFilename = `${audioFilePath.split('/')[3].split('.')[0]}.mp3`;
+
     const cutedAudios = await cutFile(
-      filePath,
-      filename,
+      audioFilePath,
+      audioFilename,
       cutedFilesDestination
     );
 
     try {
+      const textFilename = `${audioFilename.split('.')[0]}.txt`;
 
-      const transcriptedAudio = await audioTranscriptor(cutedAudios, filename, transcriptedAudioDestination);
+      const audioTranscription = await audioTranscriptor(cutedAudios, textFilename, transcriptedAudioDestination);
 
-      const improvedTranscription = await improveTranscriptionWithGpt(transcriptedAudio, filename, roles, improvedTranscriptionsDestination);
+      const improvedAudioTranscription = await improveTranscriptionWithGpt(audioTranscription, textFilename, roles, improvedTranscriptionsDestination);
 
-      const analysisMessage = await applyAnalysis(`${improvedTranscriptionsDestination}/entrevista-paciente-1.txt`, filename, analisysCommand, analisedTranscriptionDestination);
+      const analysisMessage = await applyAnalysis(improvedAudioTranscription, textFilename, analisysCommand, analisedTranscriptionDestination);
 
       console.log(analysisMessage)
 

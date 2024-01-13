@@ -1,0 +1,264 @@
+Entrevistador: Olá, Carol. Muito prazer, eu sou a Anadoná e faço parte de uma equipe de desenvolvimento de UX designers. Antes de começarmos, gostaria de saber se podemos gravar o áudio e vídeo dessa entrevista, está tudo bem para você?
+
+Entrevistado: Sim, pode gravar. Não há problema.
+
+Entrevistador: Ótimo! Fico feliz em ouvir isso. Deixe-me apenas apertar o botão aqui e farei uma pergunta para você, para garantir que tudo corra bem e não tenhamos problemas. Pronto! Tudo bem, Carol? Pode me chamar de Ana, caso prefira. Como mencionei, a gravação é apenas para uso interno e não divulgaremos sua imagem ou áudio para mais ninguém. Às vezes, não conseguimos fazer anotações e, por isso, optamos por gravar. Está de acordo?
+
+Entrevistado: Sim, tudo bem. Perfeito.
+
+Entrevistador: Ótimo! E só para você saber, se preferir, podemos enviar um termo de autorização por e-mail para você se sentir mais segura. Está bom?
+
+Entrevistado: Está bom, obrigada.
+
+Entrevistador: Como combinado, essa entrevista terá uma duração aproximada de 30 minutos. Nosso objetivo é entender as dificuldades das pessoas ao tentar seguir uma dieta, quais são os principais objetivos, as ferramentas digitais utilizadas e o nível de satisfação com esses produtos ou serviços. Tenha em mente que não há respostas certas ou erradas, e não faremos perguntas sensíveis. Fique à vontade para responder como se sentir confortável. Está tudo claro até aqui? Alguma dúvida?
+
+Entrevistado: Não, está tudo claro. Sem dúvidas.
+
+Entrevistador: Ótimo. Então, antes de começarmos, gostaria que você me contasse um pouco sobre você. Onde você mora atualmente?
+
+Entrevistado: Atualmente moro em Lisboa, mas sou do estado do Rio.
+
+Entrevistador: Que maravilha! Estamos no mesmo fuso horário. Eu estou na Espanha no momento. Interessante. E no que você trabalha?
+
+Entrevistado: Atualmente estou fazendo trabalhos freelancers na área de comunicação e design.
+
+Entrevistador: Que legal! Trabalhos informais, certo? Anotado. E o que você gosta de fazer para se divertir?
+
+Entrevistado: Atualmente tenho jogado bastante videogame nas horas livres. Como me mudei para cá, meus amigos ficaram no Brasil, então ainda não tive muita oportunidade de socializar aqui em Lisboa. Mas, no geral, gosto de ficar em casa e jogar.
+
+Entrevistador: Entendo perfeitamente. Mudar de cidade pode ser desafiador em relação à socialização. Eu também estou em um país novo e sei como é. Agora, falando sobre sua rotina alimentar, você segue algum plano alimentar atualmente?
+
+Entrevistado: Sim, atualmente estou seguindo um plano alimentar. Tento fazer a maioria das refeições em casa e evitar o delivery. Ainda não estou seguindo 100% à risca, mas estou tentando.
+
+Entrevistador: Entendi. E como tem sido essa alimentação para você?
+
+Entrevistado: Tenho me esforçado para fazer a maior parte das refeições em casa. Não tenho muito conhecimento sobre o que cozinhar, então essa é uma dificuldade para mim. Além disso, estou tentando controlar o impulso de comer besteiras, como hambúrguer e pizza.
+
+Entrevistador: E você já se consultou com algum nutricionista?
+
+Entrevistado: Sim, atualmente estou sendo acompanhada por um nutricionista. Mas já me consultei com outros dois anteriormente.
+
+Entrevistador: Entendi. Agora, falando sobre atividade física, você pratica algum exercício?
+
+Entrevistado: Sim, faço academia regularmente.
+
+Entrevistador: Academia, quem nunca, não é mesmo? E com que frequência você vai à academia?
+
+Entrevistado: Geralmente, vou duas vezes por semana.
+
+Entrevistador: E isso é por necessidade ou por lazer?
+
+Entrevistado: É mais por necessidade mesmo. Os médicos me recomendaram, então é algo que preciso fazer.
+
+Entrevistador: Eu entendo. Cuidar da nossa saúde é importante. E como você enxerga a relação entre alimentação e atividade física na sua vida?
+
+Entrevistado: Quando era mais jovem, eu tinha alguns problemas relacionados à alimentação, mas agora lido melhor com essa questão. Comer me deixa feliz, mas tento manter uma alimentação equilibrada. É mais uma questão de saúde do que estética.
+
+Entrevistador: Entendo. E você utiliza algum aplicativo para te ajudar com a atividade física?
+
+Entrevistado: Não, eu faço sem ajuda de aplicativos. Tento me motivar por conta própria.
+
+Entrevistador: Compreendo. Às vezes, é difícil encontrar motivação, especialmente quando está frio. No meu caso, também está frio onde estou. Mas é importante persistir. E voltando ao assunto do acompanhamento nutricional, o que te levou a procurar um nutricionista?
+
+Entrevistado: Percebi que precisava de um apoio na alimentação, pois eu já estava conseguindo seguir uma rotina de exercícios, mas sentia que faltava algo na alimentação. Eu cozinho em casa, mas não tenho muita variedade e tinha dificuldade em evitar comer besteiras, como hambúrguer e pizza. Além disso, meus exames médicos não estavam muito bons. Então, decidi buscar ajuda para melhorar minha alimentação.
+
+Entrevistador: Muito obrigada por compartilhar sua experiência comigo, Carol. Esses dados serão muito úteis para o nosso estudo. 
+
+Entrevistado: Por nada. Espero ter ajudado.
+
+Entrevistador: Sim, com certeza ajudou. Muito obrigada pela sua participação nesta entrevista.
+Entrevistador: Legal, e quantas vezes você já se consultou com o nutricionista até agora?
+
+Entrevistado: Já tive duas consultas com ela, uma por mês. A última foi no início desse mês e a próxima será no início do próximo mês.
+
+Entrevistador: E você procurou uma nutricionista específica de algum campo em particular? Ou foi apenas para emagrecimento?
+
+Entrevistado: Fui em uma nutricionista que me indicaram. Eu queria uma brasileira, então foi mais fácil encontrar uma online. Recebi a indicação de amigos. Já tive experiências desconfortáveis com nutricionistas no passado, onde me proibiam de comer tudo o que eu gostava. Sabia que isso não funcionava para mim, pois acabava voltando a comer de forma descontrolada. Queria alguém que fosse mais flexível e adaptasse minha alimentação, então busquei essa referência. Não era uma especialidade específica, mas era algo importante para mim.
+
+Entrevistador: Entendi. Como você se decidiu por essa nutricionista? Foi apenas uma recomendação de amigos?
+
+Entrevistado: Sim, perguntei aos meus amigos e eles me recomendaram. Fiz uma pesquisa e acompanhei as redes sociais das nutricionistas que estavam na minha lista. Acabei escolhendo aquela com a qual me identifiquei mais. Foi uma questão de afinidade.
+
+Entrevistador: Entendi. E essa é a primeira vez que você se consulta com um nutricionista?
+
+Entrevistado: Não, já consultei com nutricionistas antes, mas foi quando eu era criança, então não tenho muitas lembranças. Foi uma experiência desconfortável, pois me proibiam de comer tudo o que eu gostava. Isso não funcionava para mim.
+
+Entrevistador: É triste saber disso, mas parece que estamos mudando nossa mentalidade aos poucos, certo?
+
+Entrevistado: Sim, acredito que estamos quebrando paradigmas antigos. Temos a sorte de poder recomeçar e encontrar profissionais mais flexíveis.
+
+Entrevistador: E você está satisfeita com esse nutricionista até agora?
+
+Entrevistado: Sim, estou. Essa nova abordagem me deu mais opções de refeições e aprendi a fazer escolhas saudáveis que não me privam dos alimentos que gosto. Tenho opções para quando quero comer algo como pizza em casa que não fogem muito da minha dieta.
+
+Entrevistador: Isso é ótimo. Como é o relacionamento com a sua nutricionista? Vocês se comunicam apenas durante as consultas ou existe alguma forma de contato diário, como um aplicativo ou WhatsApp?
+
+Entrevistado: Ela tem uma plataforma online que funciona como um aplicativo. Lá recebo recomendações de planos alimentares, receitas e também tem um chat para tirar dúvidas. Ela responde as mensagens toda sexta-feira.
+
+Entrevistador: Entendi. E qual o nome dessa plataforma?
+
+Entrevistado: Se não me engano, chama-se Numax. É como se fosse um aplicativo, mas acesso pelo navegador. Lá tenho todas as recomendações e receitas disponíveis.
+
+Entrevistador: Nunca ouvi falar, mas parece interessante. E você tem dificuldade em encontrar os ingredientes recomendados nas receitas?
+
+Entrevistado: No geral, não tenho dificuldade, pois a minha nutricionista fez um plano levando em consideração os alimentos disponíveis aqui em Portugal. No entanto, às vezes tenho dificuldade em encontrar ingredientes específicos do Brasil, como requeijão light.
+
+Entrevistador: E ela te deu opções de substituição para esses ingredientes?
+
+Entrevistado: Sim, ela me indicou utilização de queijo cottage ou ricota como substitutos para o requeijão light.
+
+Entrevistador: Entendi. E como é a frequência de atendimento com a sua nutricionista?
+
+Entrevistado: Até agora tenho consultas com ela uma vez por mês.
+
+Entrevistador: E sobre as suas refeições, quem compra os ingredientes para elas?
+
+Entrevistado: Eu e meu parceiro nos responsabilizamos pela compra dos ingredientes juntos.
+
+Entrevistador: E onde vocês costumam comprar os ingredientes?
+
+Entrevistado: Normalmente fazemos as compras em supermercados. Quando os itens são mais pesados, como leite, a gente pede online para entrega em casa.
+
+Entrevistador: E você tem dificuldade em encontrar algum ingrediente específico?
+
+Entrevistado: Não no momento, pois meu plano alimentar foi adaptado para utilizar os ingredientes disponíveis aqui em Portugal.
+
+Entrevistador: E como o valor dos ingredientes influencia nas suas decisões de compra?
+
+Entrevistado: O valor influencia bastante, pois temos um orçamento mensal para compras no mercado. Tentamos não ultrapassar esse valor. Além disso, levo em consideração o custo-benefício e a qualidade dos ingredientes.
+
+Entrevistador: E você costuma cometer erros na hora de comprar os ingredientes?
+
+Entrevistado: Às vezes pode acontecer, como aconteceu quando pensava que estava comprando bacon e acabei comprando outra coisa. Mas isso foi mais no início, quando ainda estava me adaptando aos produtos disponíveis por aqui.
+
+Entrevistador: Entendo. Bem, agradeço por compartilhar sua experiência conosco. Foi muito interessante conversar com você sobre nutrição e suas escolhas alimentares.
+Entrevistador: Vamos falar um pouco sobre a influência dos preços na sua alimentação. Você acha que o frango substitui a carne bovina por ser mais barato?
+Entrevistado: Sim, isso acaba acontecendo porque o frango é mais acessível. Influencia um pouco, né.
+Entrevistador: E quando você vai comprar os ingredientes, o preço ou a qualidade é mais importante para você?
+Entrevistado: Depende, aqui no mercado tem uma grande variedade de marcas próprias, e na maioria das vezes, elas são tão boas quanto as de marca. Então, também levo em conta o preço. Às vezes, experimentei os mais baratos e não gostei, mas é raro.
+Entrevistador: E quando os gastos com alimentação excedem o orçamento, o que você faz?
+Entrevistado: Isso geralmente não acontece muito no mercado, acontece mais quando pedimos delivery. Tentamos controlar e na maioria das vezes dá certo. Mas às vezes colocamos um limite de gastos com delivery e restaurante por mês, e às vezes acabamos passando um pouco desse limite, depende da situação.
+Entrevistador: Ah, entendi. Então vocês tentam controlar os gastos com alimentação no geral, mas principalmente nos deliveries, correto?
+Entrevistado: Exatamente, não acontece tanto no dia a dia, mas em momentos especiais quando pedimos delivery. Às vezes colocamos um limite de gastos, mas pode acontecer de ultrapassar dependendo das circunstâncias.
+Entrevistador: E agora vou te perguntar sobre a sua dieta. Você segue alguma dieta ou reeducação alimentar?
+Entrevistado: Eu diria que é mais uma reeducação alimentar do que uma dieta em si. É voltada para aprender a comer de forma correta. Eu tive um período de compulsão alimentar na adolescência, então estou reaprendendo a ter uma relação saudável com a comida.
+Entrevistador: Ah, entendi. Então a sua reeducação alimentar está mais focada em aprender a escolher os alimentos adequados para você?
+Entrevistado: Sim, eu acabo comendo muito rápido, então estou tentando controlar isso. Mas acho que é mais sobre aprender a escolher as opções corretas para as refeições.
+Entrevistador: Entendi. E as pessoas próximas a você apoiam a sua reeducação alimentar? Como elas te ajudam?
+Entrevistado: Sim, o Vitor, que mora comigo, também está fazendo acompanhamento com a mesma nutricionista. Então, a gente está nessa jornada juntos, o que facilita bastante.
+Entrevistador: Legal, isso ajuda muito, né? E com que frequência você foge da dieta e por quê?
+Entrevistado: Acredito que eu fuja mais à noite, porque é quando bate a preguiça de cozinhar. O café da manhã e o almoço seguem mais o plano, mas à noite acabo optando por lanches ou seguindo o plano conforme as opções disponíveis. Tem dias que não dá tempo de almoçar, por exemplo.
+Entrevistador: E tem algo no seu plano alimentar que te desmotiva?
+Entrevistado: Não, porque ele foi feito de acordo com meu gosto e preferências. Durante a primeira consulta, discutimos os alimentos que eu gostava e não gostava, então não há nada que eu não goste no plano.
+Entrevistador: Isso é ótimo. E você já pensou em desistir da sua reeducação alimentar? Qual o motivo?
+Entrevistado: Não, eu nunca pensei em desistir. Eu sei que não sigo o plano 100% do tempo, mas nunca passou pela minha cabeça abandoná-lo.
+Entrevistador: Que bom. E você costuma refletir sobre a sua dieta com seu companheiro?
+Entrevistado: Sim, nós conversamos bastante sobre a nossa alimentação, já que ele também está seguindo a mesma dieta. Discutimos as dificuldades e nos apoiamos mutuamente nesse processo.
+Entrevistador: Você acha que as outras pessoas influenciam na sua dieta?
+Entrevistado: Acho que sim, mas acredito que eu seja a maior influência. Morando juntos, acabamos comendo a mesma coisa na maioria das vezes, então um acaba influenciando o outro.
+Entrevistador: Entendi. E em momentos como sair para comer com amigos, você se deixa influenciar pelo que eles pedem?
+Entrevistado: Não necessariamente. Eu não sigo exatamente o que as pessoas estão pedindo, mas também não fico com peso na consciência de fugir do plano. Eu tento equilibrar e aproveitar esses momentos sem culpa.
+Entrevistador: Isso é bom, precisamos nos permitir aproveitar esses momentos. E você adere a alguma filosofia alimentar, como veganismo ou vegetarianismo?
+Entrevistado: Não, não sigo nenhuma filosofia alimentar específica. Eu como de tudo, mas há dias em que opto por não consumir carne. Não é uma restrição, apenas uma escolha pessoal.
+Entrevistador: Entendi. E qual a sua opinião sobre o sabor dos ingredientes prescritos na sua dieta?
+Entrevistado: Para mim, é tranquilo, desde que eu possa temperá-los. Gosto de alimentos com bastante sabor, então isso é levado em conta. Mas a questão dos temperos é livre, desde que sejam mais naturais e menos industrializados.
+Entrevistador: E você considera seu paladar exigente? Se sim, por quê?
+Entrevistado: Eu diria que não, consigo comer a maioria das coisas sem problemas. Há algumas coisas específicas que não gosto, mas são preferências pessoais. Por exemplo, não gosto da textura do brócolis cozido, mas posso comê-lo misturado com outros alimentos.
+Entrevistador: Entendi. E você gosta de inovação no cardápio? Gosta de experimentar coisas novas?
+Entrevistado: Sim, gosto de variar o cardápio para não enjoar. Gosto de ter opções diferentes para dar uma diversificada na alimentação.
+Entrevistador: E seus desejos alimentares são estáveis ou variam muito?
+Entrevistado: Eu diria que variam de acordo com o meu humor. Algumas vezes, meus desejos alimentares mudam conforme o meu estado emocional.
+Entrevistador: Você sente falta de algum alimento específico?
+Entrevistado: Não exatamente, pois tenho opções permitidas no plano que suprem essas vontades. Às vezes, sinto falta de comer uma pizza de algum restaurante, mas não é algo que me causa sofrimento. Faço uma versão caseira, o que ajuda.
+Entrevistador: E você tem alguma intolerância alimentar?
+Entrevistado: Eu tenho sensibilidade à lactose, mas não é algo tão severo. Consigo consumir, desde que seja em quantidades moderadas.
+Entrevistador: Entendi, então você consegue se adaptar de acordo com o que você pode tolerar.
+Entrevistado: Sim, não é uma intolerância grave, então consigo lidar com isso tranquilamente.
+Entrevistador: Você mencionou que, quando consome muita lactose, acaba tendo desconfortos intestinais, como gases. E você costumava tomar lactase para ajudar nesses casos, certo?
+
+Entrevistado: Sim, exatamente. Eu costumava tomar lactase quando sabia que iria consumir alimentos com lactose em excesso. Mas percebi que mesmo assim ainda me causava desconforto, principalmente gases.
+
+Entrevistador: Entendi. E agora, falando sobre a preparação das suas refeições, quem costuma prepará-las na maior parte do tempo? E por que?
+
+Entrevistado: Na maior parte do tempo, sou eu quem prepara as refeições. Tenho mais tempo disponível para isso. Além disso, gosto de preparar as comidas que realmente aprecio, como massas e sobremesas. Porém, não tenho muita afinidade com comidas mais simples do dia a dia, como arroz, feijão e frango. Preparo essas comidas por necessidade.
+
+Entrevistador: E quais são as maiores dificuldades que você enfrenta ao preparar as refeições?
+
+Entrevistado: A maior dificuldade é, de fato, a falta de prazer em preparar a comida do dia a dia. Acaba sendo uma obrigação para mim, algo que faço porque é necessário. Além disso, costumo fazer o que já sei e utilizar os ingredientes que tenho em casa, adaptando as receitas conforme a necessidade.
+
+Entrevistador: E quando vocês não querem cozinhar ou não têm todos os ingredientes, costumam pedir delivery?
+
+Entrevistado: Sim, às vezes recorremos ao delivery, principalmente nos finais de semana, quando não queremos comer uma refeição completa. Temos opções de lanches rápidos que preferimos. Por exemplo, eu posso fazer comida apenas para o almoço e à noite optar por um lanche. No entanto, temos tentado diminuir a frequência de pedidos de delivery nos últimos meses, desde que recebemos orientações da nutricionista.
+
+Entrevistador: E a quantidade de comida que você prepara geralmente é suficiente para quantas refeições?
+
+Entrevistado: Geralmente é o suficiente para duas ou três refeições. Como tenho pouco espaço no congelador, evito preparar muita comida para não correr o risco de estragar na geladeira.
+
+Entrevistador: Vocês têm algum dia específico para preparar as refeições?
+
+Entrevistado: Não, não temos um dia específico para preparar as refeições. Quando tentei fazer isso uma vez, fizemos juntos no final de semana, quando temos mais tempo livre. Mas não é algo que praticamos com frequência.
+
+Entrevistador: E como você costuma armazenar suas refeições?
+
+Entrevistado: Eu comprei potinhos específicos para congelar e reutilizá-los. Assim, posso armazenar o arroz e o feijão separadamente, facilitando o preparo diário.
+
+Entrevistador: Você tem alguma dificuldade em esquentar suas refeições quando necessário?
+
+Entrevistado: No geral, não tenho dificuldades. Apenas preciso me lembrar de tirar as refeições do congelador para descongelar com antecedência.
+
+Entrevistador: E quanto ao delivery, você costuma rastrear os pedidos?
+
+Entrevistado: Sim, na maioria das vezes é possível rastrear o pedido. Isso ajuda a saber quando está chegando.
+
+Entrevistador: Você tem o hábito de usar aplicativos ou sites relacionados à saúde?
+
+Entrevistado: Não, não costumo usar muitos aplicativos relacionados à saúde. Apenas utilizo o aplicativo da clínica onde faço consultas para marcar os horários. Já usei o Lifesum, que é uma espécie de diário alimentar, mas não me adaptei muito por conta do foco excessivo em calorias.
+
+Entrevistador: E se existisse a opção de receber suas refeições da dieta por delivery, você adotaria essa ideia? E quais seriam os impeditivos para você?
+
+Entrevistado: Dois impeditivos seriam a parte financeira, caso o serviço fosse muito caro, e a questão do tempero. Se eu experimentasse uma vez e não gostasse do tempero, não teria vontade de pedir novamente. O tempero é algo que faz diferença para mim. Já pesquisei algumas opções, mas a maioria delas tem cardápios fixos, e eu teria que adaptar às minhas necessidades.
+
+Entrevistador: E se os estabelecimentos oferecessem amostras em menor quantidade das refeições, você teria mais interesse em experimentar?
+
+Entrevistado: Acho que sim, seria interessante ter essa opção de amostras para poder avaliar o tempero e a qualidade da comida antes de fazer uma compra completa.
+
+Entrevistador: Por fim, se você pudesse escolher um horário e dia para receber as refeições via delivery, teria alguma preferência?
+
+Entrevistado: Não tenho uma preferência específica, pois geralmente estou em casa. Se estivesse trabalhando fora, escolheria um horário em que estivesse em casa. Mas no geral, não teria impedimento para receber as refeições em qualquer horário.
+
+Entrevistador: E quando você faz pedidos via delivery, você consegue rastrear o pedido?
+
+Entrevistado: Sim, na maioria das vezes consigo rastrear o pedido e isso me ajuda a saber quando está chegando.
+
+Entrevistador: Última pergunta: você tem o hábito de usar algum aplicativo ou site para mapear sua rotina diária?
+
+Entrevistado: Eu já usei aplicativos de hábitos, mas não consegui seguir com eles. Acabo organizando minha rotina principalmente pelo Notion, mas não faço isso com muita frequência. Uso mais o celular do que o computador no meu dia a dia.
+Entrevistador: Você já utilizou algum aplicativo e desistiu dele? Se sim, qual foi o motivo?
+
+Entrevistado: Sim, já usei um aplicativo de controle de alimentação, mas como não estava realmente seguindo uma dieta, não fazia muito sentido para mim. Além disso, usei um aplicativo de controle de água para me lembrar de beber água, pois tenho dificuldade nisso. Lembro que você utiliza um aplicativo de gatinho chamado Aguatinho e também o Lifesum. Você ainda tem o Lifesum instalado em seu celular?
+
+Entrevistador: Sim, eu ainda tenho o Lifesum no meu celular, mas não o utilizo com frequência. Às vezes, eu coloco informações nele quando lembro, pois minha nutricionista pediu para eu fazer um diário anotando ou tirando fotos dos alimentos que consumo. No entanto, não utilizo o aplicativo para acompanhar as calorias como ele foi projetado. Ah, falando em aplicativo de água, qual era o nome do que você usava mesmo?
+
+Entrevistado: O aplicativo de água que eu usava era o Aguatinho. Ele é um gatinho que fica triste se você não beber água. Ele não é exatamente um despertador, mas envia notificações de tempos em tempos para lembrar de beber água.
+
+Entrevistador: Ah, que legal! Parece bem interessante. Gostaria de saber se você já pagou por algum recurso adicional em algum desses aplicativos ou sites relacionados?
+
+Entrevistado: Não, nunca paguei por recursos adicionais em aplicativos de alimentação. Já cheguei a considerar pagar por recursos em aplicativos de exercícios, pois não tenho um personal trainer e é caro contratar um aqui. Mas ainda não encontrei um aplicativo que realmente me interesse em pagar. Além disso, comprei recentemente um aplicativo chamado WhatsApp, que é bem interessante.
+
+Entrevistador: Interessante! Gostaria de saber se a gamificação presente nos aplicativos ajuda a manter uma rotina e se você se sente comprometido com isso?
+
+Entrevistado: No início, sinto que a gamificação pode ajudar a manter uma rotina. Tanto o Aguatinho, que fica feliz quando você bebe água ao longo do dia, quanto o Duolingo, por exemplo, funcionam bem para mim nesse sentido. No entanto, em relação à alimentação, não encontrei outros aplicativos que me influenciassem da mesma forma.
+
+Entrevistador: Entendi. Agora, qual é sua preferência quando precisa pedir suporte, como por exemplo, para sua nutricionista? Acha que a plataforma atual poderia melhorar nesse aspecto?
+
+Entrevistado: A plataforma que utilizo para me comunicar com minha nutricionista tem alguns pontos que considero confusos em relação à disposição das informações, mas acredito que isso não seja culpa dela, já que ela deve pagar uma assinatura para disponibilizar o serviço para os pacientes. Em relação à comunicação, geralmente utilizo o chat do aplicativo para tirar dúvidas e enviar as medidas solicitadas por ela.
+
+Entrevistador: Compreendo. E para finalizar, qual é sua preferência ao fazer pedidos, como, por exemplo, de delivery de comida? Você utiliza algum aplicativo específico ou prefere ligar diretamente para o restaurante?
+
+Entrevistado: Eu costumo utilizar o Glovo para fazer pedidos de delivery, pois os lugares que costumo pedir não oferecem opção de entrega própria. O suporte do Glovo, porém, não foi bom em uma ocasião em que tive um problema com um pedido de farmácia. O remédio não chegou, e o entregador afirmou na plataforma que havia feito a entrega, mas não recebi o produto e não houve restituição.
+
+Entrevistador: Entendi. Então você entrou em contato com o suporte do Glovo para tentar resolver o problema?
+
+Entrevistado: Sim, enviei uma mensagem pelo chat e também liguei para o suporte para relatar o problema. Infelizmente, não houve uma solução satisfatória na ocasião.
+
+Entrevistador: Muito obrigado por todas as informações e por compartilhar suas experiências conosco. Agradecemos sua colaboração!
