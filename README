@@ -1,58 +1,57 @@
-1. npm init -y // inicia package.json
-segue abaixo os scripts que você deve colar no package.json
+<h1 align="center">IA AUDIO VÍDEO TRANSCRIPTOR (2024)</h1>
+<p align="center">This project was designed to support the activities of the UX team, composed of Anna Donná, Gustavo Dias, Micael Marques, Leonardo Costa, and Tayany Morgana, during the completion of the UX Unicórnio course. </p>
+<img src="https://img.shields.io/badge/REACTJS-WORK-blue">
 
-___
-"scripts": {
-  "dev": "npx nodemon src/server.ts --watch 'src/' -e ts",
-  "compile": "npx tsc",
-  "start": "node ./dist/server.js",
-  "test": "echo \"Error: no test specified\" && exit 1"
-},
-___
+Table of contents
+=================
+<!--ts-->
+   * [About](#About)
+   * [Features](#features)
+   * [Technologies](#technologies)
+   * [Author](#author)
+<!--te-->
 
-2. npm i express cors dotenv helmet morgan express-async-errors
-3. npm i -D typescript ts-node @types/express @types/cors @types/helmet @types/dotenv @types/morgan
-4. npx tsc --init //criar arquivo tsconfig.json para configurar typescript
+---
 
+### 💻 About
 
-segue abaixo a configuração que você deve colar no arquivo tsconfig
-___
-{
-  "compilerOptions": {
-    "target": "es2016", //diz respeito a versão do JS a ser usada na transpilação 
-    "module": "commonjs",
-    "rootDir": "./src/", //onde estão os arquivos TS
-    "moduleResolution": "node",
-    "baseUrl": ".",
-    "outDir": "./dist/", //onde estarão os arquivos JS após transpilação
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "skipLibCheck": true
-  },
-  "ts-node": { "transpileOnly": true } //configurações específicas do TS-Node, onde coloquei uma configuração que reduz consumo de memória;
-}
-___
+This project utilizes the OPEN AI API to transcribe audio and video files. In addition to a verbatim transcription, the application uses CHAT GPT to generate a processed transcription that produces smoother content for the reader without, however, altering the true meaning of the transcribed content. The final product generated when running the application is an analysis file based on user input.
 
-5. crie o arquivo app.ts //será nosso arquivo de configuração
-6. crie o arquivo server.ts // será nosso arquivo recebimento e tratamento de requisições da api
-7. npm install prisma --save-dev //instala prisma no projeto
-8. npx prisma init //inicia o prisma no projeto: cria pasta prisma e arquivos .env e .gitignore
-9. configure a DATABASE_URL em .env conforme as configurações de seu banco de dados
+---
+### Features
 
-DATABASE_URL="postgresql://<usuario>:<senha>@localhost:5443/<banco de dados>?schema=public"
+- [x] Áudio transcription
+- [x] Vídeo transcription
+- [x] Generate transcription file
+- [x] Generate processed transcription file
+- [x] Generate analysis from transcription file based on user input
 
-10. em prisma/schema.prisma, crie seu primeiro model, ex:
+### 🛠 Technologies
 
-/*
-model User {
-  id    Int     @id @default(autoincrement())
-  email String  @unique
-  name  String?
-}
-*/
+- [cors](https://www.npmjs.com/package/cors)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+- [express](https://expressjs.com/)
+- [ffprobe-static](https://www.npmjs.com/package/ffprobe-static)
+- [fluent-ffmpeg](https://www.npmjs.com/package/fluent-ffmpeg)
+- [helmet](https://www.npmjs.com/package/helmet)
+- [morgan](https://www.npmjs.com/package/morgan)
+- [Node.JS](https://nodejs.org/en)
+- [NPM](https://www.npmjs.com/)
+- [openai](https://platform.openai.com/docs/overview)
+- [typescript](https://www.typescriptlang.org/)
+- [uuid](https://www.npmjs.com/package/uuid)
+- [vsCode](https://code.visualstudio.com/)
+---
 
-11. npx prisma migrate dev --name <nomedamigration> init //cria comandos SQL a partir dos models de schema.prisma
+### Author
+[Leonardo da Silva Costa](https://www.linkedin.com/in/leonardo-da-silva-costa/)
+
+Em busca do próximo nível 🚀 - Never stop learning. 🧑‍🎓
+
+<h4 align="center"> 
+	:tada: finalized! :tada:
+</h4>
+
 
 
 
