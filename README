@@ -1,4 +1,4 @@
-<h1 align="center">IA AUDIO VÍDEO TRANSCRIPTOR (2024)</h1>
+<h1 align="center">IA AUDIO VIDEO TRANSCRIPTOR (2024)</h1>
 <p align="center">This project was designed to support the activities of the UX team, composed of Anna Donná, Gustavo Dias, Micael Marques, Leonardo Costa, and Tayany Morgana, during the completion of the UX Unicórnio course. </p>
 <img src="https://img.shields.io/badge/REACTJS-WORK-blue">
 
@@ -32,8 +32,10 @@ This project utilizes the OPEN AI API to transcribe audio and video files. In ad
 - 1. Clone the application and run npm install.
 - 2. Before starting, review the 'commands' folder. Here, you can define your commands for the AI to generate the processed transcription and analysis.
 - 3. Open the 'server.ts' file in the 'src' folder. Modify the variables context, audioFilePath, roles, and analysisCommands to match your specific use case.
-- 4. Inside the 'public' folder, create a dedicated folder for your use case (e.g., 'interview'). Within this folder, set up the following subfolders: 'original-files,' 'transcriptions,' 'improved-transcriptions,' 'file-cuts,' and 'analysis.'
-- 5. Run the application.
+- 4. Inside the 'public' folder, create a dedicated folder for your use case (e.g., 'interview'). Within this folder, set up the xfollowing subfolders: 'original-files,' 'transcriptions,' 'improved-transcriptions,' 'file-cuts,' and 'analysis.'
+- 5. Now, go to the .env.example file, assign values for the port on which your application will run, insert your OpenAI key, and your organization's ID.
+- 6. Rename the file .env.example to .env
+- 7. Run the application.
 
 ### 📚 Glossary
 
